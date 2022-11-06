@@ -1,0 +1,9 @@
+//styling has been divided to two parts which is common styling residing in styles folder 
+//component styling residing with each component level
+// common styling is enabled via sass-loader through webpack
+
+@import 'App.scss';
+@import 'styles/base';
+@import 'styles/fonts';
+@import 'styles/colors';
+@import 'styles/typography';
