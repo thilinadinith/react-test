@@ -1,0 +1,41 @@
+
+.header{
+    width: 100%;
+    max-width:$pc-min-width;
+    background-color: $brand-blue;
+    text-align: center;
+    h1{
+        margin-top: 0px;
+        padding-top: 20px;
+    }
+    .filter{
+        text-align: center;
+        padding: 10px;
+        select{
+            width: 80%;
+            max-width: 200px;
+            font-size: 15px;
+        }
+    }
+}
+
+@media (min-width: $mob-width-02) {
+    .header{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        .header-title{
+            flex:2;
+            text-align: left;
+            padding: 10px 60px;
+        }
+        .filter{
+            flex:1;
+            text-align: right;
+            margin-right: 10px;
+            select{
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.page_women-clothes {
+    
+    .showcase {
+        max-width:$pc-min-width;
+        margin: 10px auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 300px);
+        justify-content: center;
+        &-loading{
+            max-width:$pc-min-width;
+            margin: 10px auto;
+            display: grid;
+            justify-content: center;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            .loading-title{
+                text-align: center;
+                padding: 60px;
+            }
+        }
+    
+    }
+}
